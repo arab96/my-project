@@ -23,6 +23,7 @@
     font-size: 19px;
     line-height: 29px;
     text-decoration: none;
+
 }
 .btn.dark{
     background: var(--dark-blue-color);
@@ -71,6 +72,7 @@ nav{
     height: 85px;
     border-radius: 50px;
     margin-top: 10px;
+    z-index: 100;
 }
 nav .logo{
     font-family: var(--FFAlberst-sans);
@@ -217,3 +219,378 @@ nav ul li a{
 .section2 .content .right {
   margin-top: -45px;
 }
+/* creator-meeting-section */
+.creator-meeting-section{
+    background: #F3F3F1;
+    height: 85vh;
+}
+.creator-meeting-section .row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.creator-meeting-section .row .left img{
+    border-radius: 10rem;
+    width: 100%;
+   height: 400px;
+   object-fit: cover;
+   margin-bottom: 2rem;
+}
+.creator-meeting-section .row .right img{
+    border-radius: 2rem;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.creator-meeting-section h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #232323; 
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.creator-meeting-section .row .p1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #353535; 
+    padding-bottom: 10px;
+}
+.creator-meeting-section .row .p2{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000; 
+    padding-bottom: 10px;
+}
+.creator-meeting-section .row .p3{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    color: #353535; 
+    padding-bottom: 10px;
+}
+/* End of Creating meeting section */
+.section5{
+  background: #F3F3F1;;
+  height: 100vh;
+}
+.section5 .cards{
+  display: flex;
+  justify-content: center;
+  background-color: #12ade0;
+  gap: 30px;
+}
+/* Our-features-section */
+.Our-features-section{
+    background: #D2DC1D;
+    height: 95vh;
+
+}
+.Our-features-section h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 72px;
+    color: #232323; 
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.Our-features-section p{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #232323; 
+    text-align: center;
+    padding-bottom: 40px;
+}
+.Our-features-section .cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Our-features-section .cards .card{
+    background: #fff;
+    border-radius: 30px;  
+    padding: 30px 25px;
+}
+.Our-features-section .cards .card img{
+   height: 80px; 
+   width: 80px;
+   background: #D2DC1D;
+   border-radius: 50%;
+   padding: 20px;
+}
+.Our-features-section .cards .card h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #232323; 
+    text-align: left;
+    padding-top: 20px;
+ }
+ .Our-features-section .cards .card p{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #232323; 
+    text-align: left;
+    padding-bottom: 5px;
+ }
+ /* Our-clients-section */
+ .Our-clients-section{
+    background: #F3F3F1;
+    height: 45vh;
+ }
+ .Our-clients-section h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 72px;
+    color: #1e2330; 
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+ }
+ .Our-clients-section .logos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+ }
+ .Our-clients-section .logos .logo{
+    background: #fff;
+    border-radius: 2rem;
+    width: 400px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .Our-clients-section .logos .logo img{
+    height: 140px;
+    padding: 20px 50px;
+ }
+ /* Pricing-plan-section */
+ .Pricing-plan-section{
+    background: #E9C0E9;
+    height: 75vh;
+ }
+ .Pricing-plan-section .Pricing-plan-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+ }
+ .Pricing-plan-section h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 72px;
+    color: #232323; 
+    padding-top: 70px;
+    padding-bottom: 30px;
+ }
+ .Pricing-plan-section .Pricing-plan-card{
+   background: #fff;
+   border-radius: 30px;
+ }
+ .Pricing-plan-section .Pricing-plan-cards .Pricing-plan-card .para{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #232323; 
+    padding: 30px;
+  }
+  .Pricing-plan-section .Pricing-plan-cards .Pricing-plan-card .title{
+    background: #502274;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 25px;
+  }
+  .Pricing-plan-section .Pricing-plan-cards .Pricing-plan-card .title h2{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+  }
+  .Pricing-plan-section .Pricing-plan-cards .Pricing-plan-card .title .t-par{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #fff;
+  }
+  .Pricing-plan-section .Pricing-plan-cards .Pricing-plan-card  a{
+    text-decoration: none;
+  }
+  .Pricing-plan-section .Pricing-plan-cards .Pricing-plan-card .btn-border{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #220e31;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    
+    margin: 0 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #220e31;
+  }
+  /* FAQ-section */
+  .FAQ-section{
+    background: #780016;
+    height: 100vh;
+  }
+  .faqs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .FAQ-section h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #e9c0e9;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .faqs .faq h2{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #e9c0e9;
+  }
+  .faqs .faq{
+    background: #49000D;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    width: 80%;
+    position: relative;
+    z-index: 10;
+  }
+  .faqs .faq img{
+    position: absolute;
+    height: 25px;
+    top: 40px;
+    left: 93%;
+    rotate: 90deg;
+  }
+  /* Our-office-section */
+  .Our-office-section{
+    height: 75vh;
+
+  }
+  .Our-office-section h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 72px;
+    color: #232323;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .Our-office-section{
+    margin-bottom: 20px;
+
+  }
+  .Our-office-section .map iframe{
+    width: 100%;
+    height: 480px;
+    border-radius: 40px;
+
+  }
+  /* Footer */
+  footer{
+    background: #502274;
+    height: 70vh;
+    padding-top: 80px;
+  }
+  footer .footer-section{
+    width: 100%;
+    height: 450px;
+    background: #fff;
+    border-radius: 40px;
+    padding-top: 50px;
+    padding-left: 60px;
+
+  }
+  footer .footer-section .links{
+    display: flex;
+    gap: 160px;
+  }
+  footer .footer-section .links .link h1{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000;
+    padding-bottom: 10px;
+
+  }
+  footer .footer-section .links .link p{
+    font-family: var(--FFAlberst-sans);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 33px;
+    color: #353535;
+  }
+  footer .footer-section .btn-and-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap: 100px;
+    margin-right: 60px;
+   
+  }
+  footer .footer-section .btn-and-icons .left .btn2{
+    padding: 23px 32px;
+    border-radius: 50px;
+    font-family: var(--FFAlberst-sans);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    text-decoration: none; 
+    margin-right: 20px;
+}
+footer .footer-section .btn-and-icons .left a {
+    gap: 100px;
+}
+footer .footer-section .btn-and-icons .left .btn2.dark2{
+    background-color: #1E2330;
+    color: #fff;
+  }
+  footer .footer-section .btn-and-icons .left .btn2.light2{
+    background-color: #D2DC1D;
+    color: #000;
+  }
+  footer .footer-section .btn-and-icons .right img {
+    height: 60px;
+  }
+
+
+ 
+
+ 
